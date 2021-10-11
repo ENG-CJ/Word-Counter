@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter ();</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="word_counter.css">
+    
+</head>
+<body class="bg-white">
+    <div class="container bg-white shadow-lg">
+        <div class="text-headers">
+            <h2 class="head">Word Counter</h2>
+          
+        </div>
+        <div class="text-area">
+            <div class="form-group">
+                <textarea class="form-control" name="" id="get" cols="30" rows="10" placeholder="Write Your text Here!"
+                onkeyup="check_char()"></textarea>
+
+            </div>
+        </div>
+
+        <div class="results-area">
+            <p id="result-word" class="bg-danger text-white">Total Words: <span id="result-1">0</span> </p>
+            <p id="result-char" class="bg-primary text-white"> Total Characters: <span id="result-2">0</span></p>
+        </div>
+    </div>
+
+
+    <!-- script -->
+    <script src="./Word_Counter.js"></script>
+
+</body>
+</html>
